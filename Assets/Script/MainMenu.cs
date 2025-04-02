@@ -11,7 +11,7 @@ public class MainMenu : MonoBehaviour
     {
         int highScore = PlayerPrefs.GetInt(ScoreSystem.HighScoreKey, 0);
 
-        highScoreText.text = $"High Score {highScore}";
+        highScoreText.text = $"High Score: {highScore}";
     }
     public void PlayGame()
     {
